@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSne0UyOyeUmu51xht49zD-MfDqxZhgOkM8al1woMagdrTL-qi0-va47MIj&s=10');
+            background-repeat: no-repeat;
+            background-size: cover;
+            grid-template-areas: 
+            "header nav nav"
+            "article article article"
+            "section section section"
+            "footer footer footer";
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            height:100 vh;
+            text-shadow:0.5px 0.5px lightblue;
+            padding: 5px;
+        }
+        #links{
+            grid-area: nav;
+        }
+        header{
+            color: aliceblue;
+        }
+        #head{
+            grid-area: header;
+            
+        }
+        
+        #mainpage{
+            grid-area: article;
+            color: aliceblue;
+            text-align: center;
+
+
+        }
+        #box{
+            grid-area: section;
+            text-align: center;
+
+        }
+        #links{
+        
+            text-align: center;
+            margin-left: 20px;
+        }
+        #logo{
+            text-align: left;
+            color: aliceblue;
+            
+            
+        }
+        #button{
+            color: lightblue;
+           text-align: right;
+        }
+        footer{
+            grid-area: footer;
+            color: aliceblue;
+            text-align: center;
+
+        }
+         ul {
+            list-style-type: none;
+            text-align: center;
+        } 
+        li a{
+            
+            text-decoration: none;
+            padding: 10px;
+            
+        }
+        li{
+            text-align: center;
+            float: left;
+        }
+        li a:hover{
+            color: lightblue;
+        }
+        a{
+            color:aliceblue;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <header id="head">
+        <nav id="logo">
+            <span><a href="project1.html">Carrers</a></span>
+            
+            
+                <nav id="links">
+                <ul>
+                <li><a href="project1.html#">Home</a></li>
+                <li><a href="project1.html#">Job Listings</a></li>
+                <li><a href="project1.html#">About</a></li>
+                <li><a href="project1.html#">Service</a></li>
+                <li><a href="project1.html#">Blog</a></li>
+                 </ul>
+                
+                <nav id="button" >
+                <input type="button" value="contact us">
+                </nav>
+
+        </nav>
+        </nav>
+    </header>
+    <article id="mainpage">
+        <h4>A Powerful Carrer Website Template</h4>
+        <p><small>Find your dream jobs in our poerful carrer website template</small></p>
+    </article>
+    <section id="box">
+        <input type="text" id="job" name="job"  placeholder="job title,keywords..">
+        <input type="text" id="aw" name="aw"  placeholder="Anywhere">
+        <input type="text" id="at" name="at"  placeholder="Any type">
+        <input type="search" id="sh" name="sh"  value="Search Job">
+    </section>
+    <footer id="footer">
+        <h6>www.carrer.com 
+            @carrer
+        </h6>
+    </footer>
+        
+            
+   
+       
+
+    
+</body>
+</html>
